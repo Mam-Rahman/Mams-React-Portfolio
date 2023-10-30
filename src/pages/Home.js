@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import photo from "../images/myphoto.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faBehance, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -39,7 +39,7 @@ const Home = () => {
 				<div className="homepaSocials">
 					
 							<a
-								target="_blank" href="https://github.com/mam-rahman"
+								target="_blank" rel="noreferrer" href="https://github.com/mam-rahman"
 								
 							>
 								<FontAwesomeIcon
@@ -49,7 +49,7 @@ const Home = () => {
 							</a>
 
               <a
-								target="_blank" href="https://www.linkedin.com"
+								target="_blank" rel="noreferrer" href="https://www.linkedin.com"
 								
 							>
 								<FontAwesomeIcon
@@ -80,6 +80,3 @@ const Home = () => {
 }
 
 export default Home;
-
-
-{/* <h3 className="animate-charcter"> Graphic Designer </h3> */}

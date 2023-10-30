@@ -9,11 +9,11 @@ const Footer = () => {
  return (
 	<div className="footer">
 		<div className="socialMedia"> 
-		<a target="_blank" href="https://github.com/mam-rahman">
+		<a target="_blank" rel="noreferrer" href="https://github.com/mam-rahman">
 			<GitHubIcon />
 			</a> 
 
-			<a target="_blank" href="https://www.linkedin.com/in/myuserurl/">
+			<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/myuserurl/">
 			<LinkedInIcon />
 			</a>
 

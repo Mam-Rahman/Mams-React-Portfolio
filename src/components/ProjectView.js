@@ -13,16 +13,16 @@ const ProjectView = () => {
  return (
 	<div className="project">
 		<h1> {project.name}</h1>
-		<img src = {project.image} />
+		<img alt='projectimages' src = {project.image} />
 		<h3> <b> Skills: </b> {project.skills}</h3>
 		<h3> <b> Description: </b> {project.description}</h3>
 
 		<div className="icons"> 
-		<a target="_blank" href={project.gitHub} >
+		<a target="_blank" rel="noreferrer" href={project.gitHub} >
         <GitHubIcon />
         </a>
 		 
-		<a target="_blank" href={project.link} >
+		<a target="_blank" rel="noreferrer" href={project.link} >
         <LanguageIcon />
         </a>
 		
