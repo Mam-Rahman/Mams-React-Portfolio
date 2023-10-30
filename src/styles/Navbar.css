@@ -1,0 +1,182 @@
+:root {
+  --text: #DCCAE9;
+  --softpurple: #A6A9C8;
+  --text2: #D3D9E9;
+  --dark: #31293F;
+  --dark2: #272932;
+  --middletone: #554D74;
+  --button: #4917a6;
+  --hotpink: 	#FF69B4;
+  --pastel: #F8C8DC;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 70px;
+  background: var(--dark2);
+}
+
+
+/* NAVBAR BRAND */
+.navbar-brand {
+  
+  padding-right: 40px;
+}
+
+#title {
+  font-size: 20px;
+  color:white;
+}
+
+.logo{
+  width: 50px;
+}
+
+/* LINKS */
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a {
+  color: var(--text2);
+  text-decoration: none;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.navbar a::after a::before{ 
+  transition: all .5s;
+}
+
+.navbar a:hover {
+  transform: scale(1.5); 
+  color: var(--hotpink);
+}
+
+/* BURGER MENU */
+
+.toggleButton {
+  width: 10%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 40px;
+}
+
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* OPEN LINKS */
+#open {
+  height: 44vh;
+}
+
+#open .links{
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .toggleButton {
+    display: flex;
+    margin-left: 5%;
+  }
+  
+
+  .navbar-expand {
+    flex-wrap: wrap!important;
+    justify-content: flex-start;
+  }
+
+  #close a {
+    display: none;
+  }
+
+  .navbar-brand{
+    margin-left: 10%;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
+  }
+  
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
+ 
+
+
+
+}
+
+ /* ==============MEDIA QUERY 768================ */
+ @media (max-width: 768px){
+  .navbar{
+  height: 90px;
+  padding: 0px!important;
+  }
+
+  .links{
+   margin-right: 100%;
+  }
+
+  #title {
+   font-size: 20px;
+   margin-left: 10px;
+  }
+  
+  .logo{
+    width: 50px;
+    margin-left: -40px;
+  }
+
+
+
+ }
+
+ /* ==============MEDIA QUERY 992================ */
+ @media (max-width: 992px){
+  .links{
+    margin-left: -5%;
+  }
+ }
+
+ 
