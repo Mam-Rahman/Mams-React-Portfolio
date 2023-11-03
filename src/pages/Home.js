@@ -49,7 +49,7 @@ const Home = () => {
 							</a>
 
               <a
-								target="_blank" rel="noreferrer" href="https://www.linkedin.com"
+								target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mam-rahman"
 								
 							>
 								<FontAwesomeIcon

@@ -13,7 +13,7 @@ const Footer = () => {
 			<GitHubIcon />
 			</a> 
 
-			<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/myuserurl/">
+			<a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mam-rahman">
 			<LinkedInIcon />
 			</a>
 

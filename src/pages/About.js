@@ -31,7 +31,7 @@ const About = () => {
             <p> Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
             
           
-           <a className='resumeIcon' target="_blank" rel="noreferrer" href="https://drive.google.com/file/">
+           <a className='resumeIcon' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1rUe99CtO-eabPI_1fs9b2dWw7BGzAIPX/view?usp=sharing">
 			             <CloudDownloadIcon/>
 		                 	</a>
   
